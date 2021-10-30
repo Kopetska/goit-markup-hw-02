@@ -1,0 +1,21 @@
+body {
+  color: #757575;
+  background-color: #e5e5e5;
+}
+.page-header {
+  background-color: #ffffff;
+}
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.social-links a {
+  color: #757575;
+}
+.social-links a:hover,
+.social-links a:focus {
+  color: #2196f3;
+}
