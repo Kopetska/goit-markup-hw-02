@@ -28,7 +28,6 @@ ul {
 }
 .site-item,
 .site-nav .social-links a {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -49,10 +48,10 @@ ul {
 }
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
   color: #ffffff;
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -64,7 +63,6 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -88,7 +86,6 @@ ul {
   color: var(--title-text-color);
 }
 .feature-item {
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -96,7 +93,6 @@ ul {
   text-transform: uppercase;
 }
 .feature-item p {
-  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -104,7 +100,6 @@ ul {
 }
 .activity-item,
 .team-list {
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -115,8 +110,14 @@ ul {
   background-color: #f5f4fa;
 }
 .team-item {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-prof p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -127,9 +128,17 @@ ul {
 }
 .adress {
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .social-items a {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .social-items a:hover,
 .social-items a:focus {
@@ -151,4 +160,23 @@ ul {
 .link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.content h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
