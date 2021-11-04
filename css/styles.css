@@ -10,6 +10,9 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .page-header {
   background-color: #ffffff;
 }
@@ -125,20 +128,16 @@ ul {
 }
 .footer {
   background-color: #2f303a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .adress {
   color: #ffffff;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .social-items a {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .social-items a:hover,
 .social-items a:focus {
@@ -148,11 +147,20 @@ ul {
   color: var(--title-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 .link {
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 .btn:hover,
 .btn:focus,
@@ -160,13 +168,6 @@ ul {
 .link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-}
-.navigation {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 .content h3 {
   font-weight: 700;
