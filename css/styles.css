@@ -78,7 +78,8 @@ a {
   color: var(--accent-color);
   background-color: #ffffff;
 }
-.features .main {
+.list,
+.main {
   background-color: #e5e5e5;
 }
 .feature-item,
