@@ -2,6 +2,8 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --color-hero-footer: #2f303a;
 }
 body {
   color: var(--primary-text-color);
@@ -13,8 +15,11 @@ ul {
 a {
   text-decoration: none;
 }
+address {
+  font-style: normal;
+}
 .page-header {
-  background-color: #ffffff;
+  background-color: var(--main-background-color);
 }
 .logo {
   color: var(--accent-color);
@@ -23,14 +28,17 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.subject {
+  color: var(--title-text-color);
+}
 .site-item {
   color: var(--accent-color);
 }
 .site-nav {
   color: var(--title-text-color);
 }
-.site-item,
-.site-nav .social-links a {
+.navigation,
+.social-links {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -50,11 +58,11 @@ a {
   color: var(--accent-color);
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--color-hero-footer);
   text-align: center;
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--main-background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -63,7 +71,7 @@ a {
   text-transform: uppercase;
 }
 .button {
-  color: #ffffff;
+  color: var(--main-background-color);
   background-color: var(--accent-color);
   cursor: pointer;
   font-weight: 700;
@@ -75,12 +83,12 @@ a {
 }
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
-  background-color: #ffffff;
+  color: var(--main-background-color);
+  background-color: #188ce8;
 }
 .list,
 .main {
-  background-color: #e5e5e5;
+  background-color: var(--main-background-color);
 }
 .feature-item,
 .activity-item,
@@ -96,7 +104,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.feature-item p {
+.features p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -128,14 +136,17 @@ a {
   letter-spacing: 0.03em;
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--color-hero-footer);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.subject-footer {
+  color: var(--main-background-color);
+}
 .adress {
-  color: #ffffff;
+  color: var(--main-background-color);
 }
 .social-items a {
   color: rgba(255, 255, 255, 0.6);
@@ -155,7 +166,7 @@ a {
   letter-spacing: 0.03em;
 }
 .link {
-  color: #ffffff;
+  color: var(--main-background-color);
   background-color: var(--accent-color);
   cursor: pointer;
   font-weight: 500;
@@ -167,7 +178,7 @@ a {
 .btn:focus,
 .link:hover,
 .link:focus {
-  color: #ffffff;
+  color: var(--main-background-color);
   background-color: var(--accent-color);
 }
 .content h3 {
@@ -181,4 +192,7 @@ a {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.content-text {
+  color: var(--primary-text-color);
 }
